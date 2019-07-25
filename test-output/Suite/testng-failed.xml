@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.walmart.test.LoginPageTest">
+        <methods>
+          <include name="test1"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.walmart.test.LoginPageTest -->
+      <class name="com.walmart.test.SearchResultsDetailsTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="checkTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.walmart.test.SearchResultsDetailsTest -->
+      <class name="com.walmart.test.PrimepageTest">
+        <methods>
+          <include name="liginCheckk"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.walmart.test.PrimepageTest -->
+      <class name="com.walmart.test.SearchResultsTest">
+        <methods>
+          <include name="searchDataTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.walmart.test.SearchResultsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
